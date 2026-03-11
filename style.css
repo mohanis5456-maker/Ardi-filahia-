@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    direction: rtl;
+}
+h1{
+    text-align: center;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, select, button{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+}
