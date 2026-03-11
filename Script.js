@@ -37,7 +37,7 @@ requests.forEach((r, i) => {
         <td>${r.status}</td>
         <td>
             <button onclick="changeStatus(${i}, 'مقبول')">مقبول</button>
-            <button onclick="changeStatus(${i}, 'مرفوض')">مرفوض</button>
+            <button onclick="changeStatus(${i}, 'مرفوض')">مرفوض</butto
         </td>
     `;
     tbody.appendChild(tr);
@@ -47,5 +47,5 @@ function changeStatus(index, status){
     let requests = JSON.parse(localStorage.getItem("requests") || "[]");
     requests[index].status = status;
     localStorage.setItem("requests", JSON.stringify(requests));
-    location.reload();
+    location.relo
 }
